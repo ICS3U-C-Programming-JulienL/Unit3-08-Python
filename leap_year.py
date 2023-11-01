@@ -20,17 +20,16 @@ def main():
             if user_year_int % 100 == 0:
                 # if the user year is divisible by 400, then the year is a leap year.
                 if user_year_int % 400 == 0:
-                    print("It is a leap year")
+                    print("{} is a leap year".format(user_year_string))
                 else:
                     # otherwise, the year is not a leap year
-                    print("It is not a leap year")
+                    print("{} is not a leap year".format(user_year_string))
             else:
                 # otherwise, the year iS a leap year
-                print("It is a leap year")
+                print("{} is a leap year".format(user_year_string))
         else:
             # otherwise, the year is not a leap year
-            print("It is not a leap year.")
-
+            print("{} is not a leap year.".format(user_year_string))
     except:
         # if the year is not an integer, then tell them their input is invalid
         print(
