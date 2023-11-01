@@ -11,7 +11,7 @@ def main():
     user_year_string = input("Enter a year: ")
 
     try:
-        # convert user age to an integer
+        # convert user year to an integer
         user_year_int = int(user_year_string)
 
         # if the user year is divisible by 4, then see if it is divisible by 100
